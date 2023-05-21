@@ -9,7 +9,7 @@ services:
     env_file:
       - ./.env
   web:
-    build: ildar714/yambd_final:latest
+    build: ildar714/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
