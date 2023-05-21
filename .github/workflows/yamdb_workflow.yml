@@ -31,10 +31,7 @@ jobs:
       run: |
         # запуск проверки проекта по flake8
         # python -m flake8
-
-        cd api_yamdb/
-
-        # python manage.py test
+        # pytest
   
   build_and_push_to_docker_hub:
     name: Push Docker image to Docker Hub
@@ -46,6 +43,7 @@ jobs:
         uses: actions/checkout@v2 
       - name: Set up Docker Buildx
         # Вызов сборщика контейнеров docker
+        cd api_yamdb/
         uses: docker/setup-buildx-action@v1 
       - name: Login to Docker 
         # Запуск скрипта авторизации на Docker Hub
