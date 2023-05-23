@@ -1,4 +1,5 @@
 # CI/CD для проекта API YAMDB
+### Временное размещение сайта: http://51.250.23.79/
 ![Django-app workflow](https://github.com/tim714/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 
