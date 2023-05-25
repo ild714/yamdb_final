@@ -12,7 +12,7 @@ schema_view = get_schema_view(
         description="Документация для приложения cats проекта Kittygram",
         contact=openapi.Contact(email="admin@kittygram.ru"),
         license=openapi.License(name="BSD License"),
-        ),
+    ),
     public=True,
     permission_classes=(permissions.AllowAny,),
 )
