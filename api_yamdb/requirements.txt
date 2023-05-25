@@ -4,7 +4,7 @@ certifi==2022.12.7
 charset-normalizer==2.0.12
 coreapi==2.3.3
 coreschema==0.0.4
-Django==2.2.1
+Django==3.2.19
 django-filter==1.1
 django-utils-six==2.0
 djangorestframework==3.12.4
